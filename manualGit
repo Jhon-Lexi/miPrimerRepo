@@ -1,0 +1,27 @@
+|1- instalacion de git
+sudo apt install git
+
+2-Proporcionar un usaurio y correo
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+3-checar esdo de git
+git status
+
+4-Añade los cambios hechos
+git add aqui pones el nombre del archivo
+
+5-chechar otravez el estdado
+ git status
+
+6-Poner nombre del cambio que se hizo
+git commit -m "actualizacion del mensaje"
+
+7-poner git log para ver todos los commit
+git log
+
+8- Para ver los commit de manera mas compact utilizar
+git log --oneline
+
+9-Para retroceder un commit anterior utilizar el siguiente comando
+git reset --hard  aqui poner el id del commit ejemplo :411134
