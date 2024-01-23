@@ -25,3 +25,15 @@ git log --oneline
 
 9-Para retroceder un commit anterior utilizar el siguiente comando
 git reset --hard  aqui poner el id del commit ejemplo :411134
+
+10- git remote -v
+  Muestra si tengo un repositorio
+11- git remote add origin
+   Despues de origin pnesel nombre del repositorio ejemplo git@github.com:Jhon-Lexi/miPrimerRepo.git
+   y verificar con git remote -v
+12- git push origin master
+   Transfiere todo el contenido de los archivos de la carpeta al repositorio
+
+### Configuracion ssh 
+ssh-keygen -t rsa -b 2040 -C "mail"
+ssh-keygen -t  ed25519 -C garciamartinezjohanalexander@gmail.com
