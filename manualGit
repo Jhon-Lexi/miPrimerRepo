@@ -38,8 +38,18 @@ git reset --hard  aqui poner el id del commit ejemplo :411134
 Este comando es para actualizar tu repo local
 14- cat .gitignore
  Se ocupa para visulizar archivos con extenciones ocultas
-15-nano .gitignore
+15- nano .gitignore
  Se Especifica que tipo de extension sera ignorada
-16.Supercampeones
+
+ 16- git config pull.rebase false
+ Este comando es por default para actulizar el codigo (esto es en caso de que no se haya avisado de un cambio )
+
+
+ 17- git config pull.rebase true
+ Este comando es para actulizar el codigo (esto es en caso de que no se haya avisado de un cambio )
+   aqui se compara los diferentes codigos para ver la eficiencia del codigo
+18- git commit --amend
+ Eto se utiliza para poder poner un commit despues de poner el codigo
+***Proporcionarun correo
 ssh-keygen -t rsa -b 2040 -C "mail"
 ssh-keygen -t  ed25519 -C garciamartinezjohanalexander@gmail.com
