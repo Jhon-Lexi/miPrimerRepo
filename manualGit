@@ -40,7 +40,7 @@ Este comando es para actualizar tu repo local
  Se ocupa para visulizar archivos con extenciones ocultas
 15-nano .gitignore
  Se Especifica que tipo de extension sera ignorada
-
+16.prueba 0000003
 ### Configuracion ssh 
 ssh-keygen -t rsa -b 2040 -C "mail"
 ssh-keygen -t  ed25519 -C garciamartinezjohanalexander@gmail.com
