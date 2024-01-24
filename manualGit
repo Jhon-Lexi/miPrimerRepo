@@ -36,6 +36,10 @@ git reset --hard  aqui poner el id del commit ejemplo :411134
 
 13- git pull origin master
 Este comando es para actualizar tu repo local
+14- cat .gitignore
+ Se ocupa para visulizar archivos con extenciones ocultas
+15-nano .gitignore
+ Se Especifica que tipo de extension sera ignorada
 
 ### Configuracion ssh 
 ssh-keygen -t rsa -b 2040 -C "mail"
