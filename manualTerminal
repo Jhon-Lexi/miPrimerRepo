@@ -1,0 +1,16 @@
+ls - Muestra un en listado de los archivos en el lugar ubicado
+cd - Se usa para seleccionar la carpeta a la que te quieres mover
+touch - Crea un archivo (poner el nombre del archivo depues de esto)
+mkdir - Crea una carpeta (poner el nombre del archivo depues de esto)
+Tecla Tabulador - Te auto completa el nombre del archivo o carpeta que desea ocupar
+cd ..   - Retrocede una carpeta 
+rm -R  - Borra una carpeta del directorio de forma recursiva
+pwd - Se ocupa para saber donde me encuentro
+rm - Borra un archivo
+ls -lha  En lista todo lo que hay en las carpetas y archivos ocultos
+cat - leer un archivo
+nano - modifica un archivo
+javac - Compila un archivo java
+../  Retrocede un directorio
+clear - Limpia pantalla
+javac -g   Compila un archivo java y depura el programa

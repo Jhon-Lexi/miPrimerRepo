@@ -53,3 +53,17 @@ Este comando es para actualizar tu repo local
 ***Proporcionarun correo
 ssh-keygen -t rsa -b 2040 -C "mail"
 ssh-keygen -t  ed25519 -C garciamartinezjohanalexander@gmail.com
+
+19- git checkout -b 
+crea una nueva rama y te posiciona en esa rama
+ejemplo : git checkout -b desarrollo
+
+20- git branch -v 
+en listar las ramas
+
+21-git checkout master
+Despues de este codigo poner el nombre de la rama en la que desea estar
+ejemplo: git checkout master
+
+22 git merge desarrollo
+Posterior a este comando poner el nombre de la rama acrear
