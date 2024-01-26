@@ -1,0 +1,37 @@
+1.Extraer el archivo jdk-8u211-linux-x64.tar.gz
+$ tar -zxf jdk-8u211-linux-x64.tar.gz 
+
+2.Mover la carpeta en /usr/lib/jvm/
+$ mv jdk1.8.0_211 /usr/lib/jvm
+*usar sudo si bloquea el comando
+
+3.Instalar los binarios de java
+$ sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_211/bin/java 1
+
+4.Cambiar la versión de java por la recién instalada.
+$ sudo update-alternatives --config java
+-elegir la opción que tenga la siguiente ruta /usr/lib/jvm/jdk1.8.0_211/bin/java
+
+5.Instalar los binarios de javac
+$ sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.8/bin/javac 1
+
+6.Cambiar la versión de javac por la recién instalada.
+$ sudo update-alternatives --config javac
+-elegir la opción que tenga la siguiente ruta /usr/lib/jvm/jdk1.8.0_211/bin/javac
+
+7.Instalar los binarios de jar
+$ sudo update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk1.8/bin/jar 1
+
+8.Cambiar la versión de jar por la recién instalada.
+$ sudo update-alternatives --config jar
+-elegir la opción que tenga la siguiente ruta /usr/lib/jvm/jdk1.8.0_211/bin/jar
+
+9.Exportar las variable de entorno.
+$ export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_211/jre/
+$ echo $JAVA_HOME
+
+10.sudo apt-get install maven
+
+11.mvn -v
+
+
