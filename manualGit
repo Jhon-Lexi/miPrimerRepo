@@ -27,7 +27,7 @@ git log --oneline
 git reset --hard  aqui poner el id del commit ejemplo :411134
 
 10- git remote -v
-  Muestra si tengo un repositorio
+  Muestra si tengo un repositorio o en lista los repositorios remotos que tengo aqui
 11- git remote add origin
    Despues de origin pnesel nombre del repositorio ejemplo git@github.com:Jhon-Lexi/miPrimerRepo.git
    y verificar con git remote -v
