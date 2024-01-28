@@ -67,3 +67,7 @@ ejemplo: git checkout master
 
 22 git merge desarrollo
 Posterior a este comando poner el nombre de la rama acrear
+
+23 git clone 
+ Para obtener un codigo de la pagina github se ocupa estas palabras seguidas de la direccion hss copiada
+ ejemplo: git clone git@github.com:alienxtrix/JavaPOO.git
